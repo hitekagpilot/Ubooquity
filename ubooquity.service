@@ -12,7 +12,7 @@ Type=simple
 User=ubooquity
 Group=ubooquity
 #WorkingDirectory=/mnt/ubooquity
-ExecStart=java -jar /opt/ubooquity/Ubooquity.jar --remoteadmin --headless --libraryport "2202" --adminport "2203" --workdir "/mnt/u>
+ExecStart=java -jar /opt/ubooquity/Ubooquity.jar --remoteadmin --headless --libraryport "2202" --adminport "2203" --workdir "/mnt/ubooquity/"
 Restart=on-failure
 # Other restart options: always, on-abort, etc
 
